@@ -1,0 +1,133 @@
+{
+  "zones": 72,
+  "commuters": 4029865.0,
+  "intrazonal_share": 0.6298143982490728,
+  "obs_mean_km_interzonal": 23.5132640748715,
+  "fits": {
+    "v1_all_flows/exp": {
+      "beta": 0.13999991062682496,
+      "r2_interzonal": 0.6386971803899888,
+      "srmse_interzonal": 2.594609038168098
+    },
+    "v1_all_flows/power": {
+      "beta": 2.790807417843214,
+      "r2_interzonal": 0.668473349925083,
+      "srmse_interzonal": 2.4853953063393237
+    },
+    "v2_interzonal/exp": {
+      "beta": 0.1058996010196897,
+      "r2_interzonal": 0.8925509868530428,
+      "srmse_interzonal": 1.4149381839397952
+    },
+    "v2_interzonal/power": {
+      "beta": 3.4516273833337023,
+      "r2_interzonal": 0.8160482822719299,
+      "srmse_interzonal": 1.8513484848023651
+    }
+  },
+  "chosen": "v2_interzonal/exp",
+  "tld_bins_km": [
+    0,
+    10,
+    20,
+    30,
+    40,
+    60,
+    80,
+    120,
+    250
+  ],
+  "tld_obs": [
+    0.1183,
+    0.3985,
+    0.2494,
+    0.1206,
+    0.0852,
+    0.0156,
+    0.0075,
+    0.0048
+  ],
+  "tld_mod": [
+    0.0962,
+    0.375,
+    0.278,
+    0.1397,
+    0.097,
+    0.0124,
+    0.0016,
+    0.0
+  ],
+  "largest_residuals": [
+    [
+      "Wirral",
+      "Cheshire West and Chester",
+      7951,
+      1746
+    ],
+    [
+      "Northumberland",
+      "North Tyneside",
+      8057,
+      2993
+    ],
+    [
+      "Rotherham",
+      "Sheffield",
+      16970,
+      12039
+    ],
+    [
+      "Wyre",
+      "Blackpool",
+      7551,
+      2749
+    ],
+    [
+      "East Riding of Yorkshire",
+      "Kingston upon Hull, City of",
+      21836,
+      17202
+    ],
+    [
+      "Kirklees",
+      "Calderdale",
+      8157,
+      3850
+    ],
+    [
+      "Trafford",
+      "Manchester",
+      14205,
+      10130
+    ],
+    [
+      "Knowsley",
+      "Liverpool",
+      15609,
+      11581
+    ]
+  ],
+  "scenario": {
+    "cut": 0.2,
+    "core_cities": [
+      "Liverpool",
+      "Manchester",
+      "Leeds",
+      "Bradford",
+      "Sheffield",
+      "Kingston upon Hull, City of",
+      "Newcastle upon Tyne",
+      "York"
+    ],
+    "core_pairs_obs": 39107.0,
+    "core_pairs_base": 33862.22436670696,
+    "core_pairs_scen": 47555.45020289662,
+    "core_pairs_pct": 40.438057724443865,
+    "leeds_to_manchester_obs": 291.0,
+    "leeds_to_manchester_base": 212.4407607231915,
+    "leeds_to_manchester_scen": 625.7457460566,
+    "interzonal_total_unchanged": true,
+    "trips_diverted_from_other_pairs": 27788.9307317593,
+    "v1_core_pairs_pct": 102.49132337855346
+  }
+}
